@@ -1,12 +1,12 @@
 # Nicework
 Landing website of workspace provider, build use html, css, and vanilla js.
 
-- Appearance
+<p>Appearance</p>
 <div align="center">
-  <img src="https://i.ibb.co/sQd4M38/nicework.png" alt="appearance" width=680>
+  <img src="https://i.ibb.co/sQd4M38/nicework.png" alt="appearance">
 </div>
 <br>
-- Responsive
+<p>Responsive</p>
 <div align="left">
   <img src="https://i.ibb.co/VVQXgp8/mobile-1.jpg" alt="mobile-1" width=280>
 </div>
