@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 header.header {
@@ -32,13 +32,13 @@ header.header {
     margin-right: 16px;
 }
 
-nav.navbar {    
+nav.navbar {
     padding: 16px 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .nav-scroll {
@@ -71,21 +71,21 @@ nav.navbar {
 }
 
 .btn {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     padding: 12px 18px;
     border-radius: 6px;
-    transition: .3s;
+    transition: 0.3s;
     text-decoration: none;
 }
 
 .cta-navbar .btn {
-    background-color: #35858B; 
+    background-color: #35858b;
     color: white;
 }
 
 .cta-button {
-    margin: 48px auto ;
+    margin: 48px auto;
 }
 
 .cta-navbar .btn:hover,
@@ -118,9 +118,9 @@ nav.navbar {
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #35858B;
+    background: #35858b;
     border-radius: 0.5px;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .nav-toggle span:nth-child(1) {
@@ -155,8 +155,8 @@ main {
     padding: 48px;
 }
 
-article#cta-landing, 
-article#information, 
+article#cta-landing,
+article#information,
 article#workspace,
 article#ask {
     text-align: center;
@@ -168,34 +168,35 @@ h2.cta-title {
     font-size: 42px;
     line-height: 1.2;
     margin: 0;
-    background: linear-gradient(to right, #35858B, 70%, #AEFEFF, #4FBDBA);
+    background: linear-gradient(to right, #35858b, 70%, #aefeff, #4fbdba);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .cta-title > span::before {
-    content: '';
+    content: "";
     animation: work infinite 20s;
 }
 
 @keyframes work {
     0% {
-        content: 'bekerja';
+        content: "bekerja";
     }
     20% {
-        content: 'bekerja';
+        content: "bekerja";
     }
     40% {
-        content: 'rapat';
+        content: "rapat";
     }
     60% {
-        content: 'ngobrolin bisnis';
+        content: "ngobrolin bisnis";
     }
     80% {
-        content: 'belajar';
+        content: "belajar";
     }
     100% {
-        content: 'ngerjain tugas';
+        content: "ngerjain tugas";
     }
 }
 
@@ -213,7 +214,7 @@ p.value-desc {
 }
 
 .cta-button .btn {
-    background-color: #35858B;
+    background-color: #35858b;
     color: white;
     padding: 12px 24px;
 }
@@ -224,7 +225,7 @@ p.value-desc {
     margin: 24px auto;
 }
 
-.cta-information a, 
+.cta-information a,
 .cta-workspace a {
     text-decoration: none;
     font-weight: bold;
@@ -264,7 +265,7 @@ p.value-desc {
 .workspace-gallery a img {
     width: 100%;
     cursor: pointer;
-    transition: .2s;
+    transition: 0.2s;
 }
 
 .workspace-gallery a img:hover {
@@ -272,7 +273,8 @@ p.value-desc {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-h2.ask-title, .ask-desc p {
+h2.ask-title,
+.ask-desc p {
     color: #072227;
 }
 
@@ -317,17 +319,18 @@ footer p {
         padding: 16px 24px !important;
     }
 
-    .top-header, 
+    .top-header,
     main {
         padding: 16px 24px;
     }
 
-    article#information, 
+    article#information,
     article#workspace {
         text-align: left;
     }
 
-    .main-navbar, .cta-navbar {
+    .main-navbar,
+    .cta-navbar {
         display: none;
     }
 
@@ -340,11 +343,12 @@ footer p {
         margin: 16px 0;
         padding: 0;
     }
-    
-    .main-navbar ul li, .cta-navbar {
+
+    .main-navbar ul li,
+    .cta-navbar {
         margin: 16px 0;
     }
-    
+
     .cta-navbar {
         margin: 0;
         width: 100% !important;
@@ -385,7 +389,7 @@ footer p {
 }
 
 @media screen and (max-width: 767px) {
-    .top-header, 
+    .top-header,
     main {
         padding: 16px;
     }
@@ -394,10 +398,11 @@ footer p {
         width: 100%;
     }
 
-    article#cta-landing, 
-    article#information, 
+    article#cta-landing,
+    article#information,
     article#workspace,
-    article#ask, aside {
+    article#ask,
+    aside {
         padding: 32px 0;
     }
 
@@ -423,7 +428,7 @@ footer p {
 }
 
 @media screen and (max-width: 525px) {
-    .top-header, 
+    .top-header,
     main {
         padding: 16px 8px;
     }
@@ -431,11 +436,11 @@ footer p {
     nav.navbar {
         border-bottom: 1px solid rgba(22, 28, 51, 0.08);
     }
-    
+
     .brand-logo img {
         width: 140px;
     }
-    
+
     .workspace-gallery {
         display: block;
         width: 100%;
